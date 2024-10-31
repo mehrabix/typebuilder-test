@@ -1,0 +1,22 @@
+{
+  "name": "typebuilder-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dist/index.js",
+    "dev": "tsc --watch & node --watch dist ./dist/index.js",
+    "prepare": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mehrabi/typebuilder": "^1.0.12"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
+}

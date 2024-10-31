@@ -1,0 +1,40 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@mehrabi/typebuilder':
+        specifier: ^1.0.12
+        version: 1.0.12
+    devDependencies:
+      typescript:
+        specifier: ^5.6.3
+        version: 5.6.3
+
+packages:
+
+  '@mehrabi/typebuilder@1.0.12':
+    resolution: {integrity: sha512-Xka5D453/zlRsQqK/TkiyfCzNaxIbsGAkOGbcat7LjXMgr214OGq09UEfF77Z7V0gvBJcNbFwZYKieLBKovpVg==}
+
+  typescript@5.6.3:
+    resolution: {integrity: sha512-hjcS1mhfuyi4WW8IWtjP7brDrG2cuDZukyrYrSauoXGNgx0S7zceP07adYkJycEr56BOUTNPzbInooiN3fn1qw==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+
+  zod@3.23.8:
+    resolution: {integrity: sha512-XBx9AXhXktjUqnepgTiE5flcKIYWi/rme0Eaj+5Y0lftuGBq+jyRu/md4WnuxqgP1ubdpNCsYEYPxrzVHD8d6g==}
+
+snapshots:
+
+  '@mehrabi/typebuilder@1.0.12':
+    dependencies:
+      zod: 3.23.8
+
+  typescript@5.6.3: {}
+
+  zod@3.23.8: {}
