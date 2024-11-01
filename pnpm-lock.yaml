@@ -8,9 +8,9 @@ importers:
 
   .:
     dependencies:
-      '@mehrabi/typebuilder':
-        specifier: ^1.0.12
-        version: 1.0.12
+      '@litpack/typebuilder':
+        specifier: ^1.0.14
+        version: 1.0.14
     devDependencies:
       typescript:
         specifier: ^5.6.3
@@ -18,8 +18,8 @@ importers:
 
 packages:
 
-  '@mehrabi/typebuilder@1.0.12':
-    resolution: {integrity: sha512-Xka5D453/zlRsQqK/TkiyfCzNaxIbsGAkOGbcat7LjXMgr214OGq09UEfF77Z7V0gvBJcNbFwZYKieLBKovpVg==}
+  '@litpack/typebuilder@1.0.14':
+    resolution: {integrity: sha512-USg9if/7qOu8aNAGldzQhUXNI0M+LJDIrP+qkG+lZL5jvSx0XvyrFOEI4zIdkDaQ5IcfcNEz8MVrXhKImLIOhA==}
 
   typescript@5.6.3:
     resolution: {integrity: sha512-hjcS1mhfuyi4WW8IWtjP7brDrG2cuDZukyrYrSauoXGNgx0S7zceP07adYkJycEr56BOUTNPzbInooiN3fn1qw==}
@@ -31,7 +31,7 @@ packages:
 
 snapshots:
 
-  '@mehrabi/typebuilder@1.0.12':
+  '@litpack/typebuilder@1.0.14':
     dependencies:
       zod: 3.23.8
 

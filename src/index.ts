@@ -1,4 +1,4 @@
-import { createBuilder, z } from "@mehrabi/typebuilder";
+import { createBuilder, z } from "@litpack/typebuilder";
 
 const personSchema = z.object({
   name: z.string().min(2, { message: "Name must be at least 2 characters long." }),
@@ -13,8 +13,6 @@ const personSchema = z.object({
 const person = createBuilder(personSchema)
   .setName("Alice")
   .setAge(22)
-  .setEmail('swdsd@gmail.com')
-  .setPhone('2332')
-  .build()
+  .setEmail('swdsd@gmail.com').build
 
 console.log("Person created:", person);
